@@ -6,6 +6,7 @@ function destructivelyAddElementToBeginningOfArray(x,y){
   x.unshift(y)
   return x
 }
+<<<<<<< HEAD
 function addElementToEndOfArray(x,y) {
   return [...x, y]
 }
@@ -30,3 +31,5 @@ function destructivelyRemoveElementFromEndOfArray(x){
 function removeElementFromEndOfArray(x){
   return x.slice(0, x.length - 1)
 }
+=======
+>>>>>>> 944b18ad4843b2a5992f1142ee0ac8f2d45e9847
